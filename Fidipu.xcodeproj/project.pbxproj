@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D6DA1F6308F93B83EA0BAC8 /* Pods_Fidipu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D4AF4623A6400B43D6A25CB /* Pods_Fidipu.framework */; };
+		CA53993F2845864E0060CE2E /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA53993E2845864E0060CE2E /* FeedViewController.swift */; };
+		CA539941284586FB0060CE2E /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA539940284586FB0060CE2E /* UploadViewController.swift */; };
+		CA539943284587080060CE2E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA539942284587080060CE2E /* SettingsViewController.swift */; };
+		CACD762F284A722E001C6A2B /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD762E284A722E001C6A2B /* CommentViewController.swift */; };
+		CACD7631284A7407001C6A2B /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD7630284A7407001C6A2B /* CommentTableViewCell.swift */; };
+		CAD6A4B32849623E000D0E09 /* ScoringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD6A4B22849623E000D0E09 /* ScoringViewController.swift */; };
+		CAE94F7528480D0B0002211D /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE94F7428480D0B0002211D /* FeedTableViewCell.swift */; };
+		CAF937E7284397210097B974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF937E6284397210097B974 /* AppDelegate.swift */; };
+		CAF937E9284397210097B974 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF937E8284397210097B974 /* SceneDelegate.swift */; };
+		CAF937EB284397210097B974 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF937EA284397210097B974 /* ViewController.swift */; };
+		CAF937EE284397210097B974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF937EC284397210097B974 /* Main.storyboard */; };
+		CAF937F0284397210097B974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF937EF284397210097B974 /* Assets.xcassets */; };
+		CAF937F3284397210097B974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF937F1284397210097B974 /* LaunchScreen.storyboard */; };
+		CAF937FB284397910097B974 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAF937FA284397910097B974 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D4AF4623A6400B43D6A25CB /* Pods_Fidipu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fidipu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8981425D378489D79BBAA4C2 /* Pods-Fidipu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fidipu.release.xcconfig"; path = "Target Support Files/Pods-Fidipu/Pods-Fidipu.release.xcconfig"; sourceTree = "<group>"; };
+		AB5F0E3283B553F5036FCA9F /* Pods-Fidipu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fidipu.debug.xcconfig"; path = "Target Support Files/Pods-Fidipu/Pods-Fidipu.debug.xcconfig"; sourceTree = "<group>"; };
+		CA53993E2845864E0060CE2E /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		CA539940284586FB0060CE2E /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		CA539942284587080060CE2E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CACD762E284A722E001C6A2B /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		CACD7630284A7407001C6A2B /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		CAD6A4B22849623E000D0E09 /* ScoringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringViewController.swift; sourceTree = "<group>"; };
+		CAE94F7428480D0B0002211D /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		CAF937E3284397210097B974 /* Fidipu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fidipu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF937E6284397210097B974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF937E8284397210097B974 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAF937EA284397210097B974 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF937ED284397210097B974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF937EF284397210097B974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF937F2284397210097B974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF937F4284397210097B974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF937FA284397910097B974 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF937E0284397210097B974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6DA1F6308F93B83EA0BAC8 /* Pods_Fidipu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B255FCC7368E5C2AC4990F68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB5F0E3283B553F5036FCA9F /* Pods-Fidipu.debug.xcconfig */,
+				8981425D378489D79BBAA4C2 /* Pods-Fidipu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAF937DA284397210097B974 = {
+			isa = PBXGroup;
+			children = (
+				CAF937E5284397210097B974 /* Fidipu */,
+				CAF937E4284397210097B974 /* Products */,
+				B255FCC7368E5C2AC4990F68 /* Pods */,
+				E3029CF6AD057532D92DCC31 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF937E4284397210097B974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF937E3284397210097B974 /* Fidipu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF937E5284397210097B974 /* Fidipu */ = {
+			isa = PBXGroup;
+			children = (
+				CAF937E6284397210097B974 /* AppDelegate.swift */,
+				CAF937E8284397210097B974 /* SceneDelegate.swift */,
+				CAF937EA284397210097B974 /* ViewController.swift */,
+				CA53993E2845864E0060CE2E /* FeedViewController.swift */,
+				CAE94F7428480D0B0002211D /* FeedTableViewCell.swift */,
+				CAD6A4B22849623E000D0E09 /* ScoringViewController.swift */,
+				CACD762E284A722E001C6A2B /* CommentViewController.swift */,
+				CACD7630284A7407001C6A2B /* CommentTableViewCell.swift */,
+				CA539940284586FB0060CE2E /* UploadViewController.swift */,
+				CA539942284587080060CE2E /* SettingsViewController.swift */,
+				CAF937EC284397210097B974 /* Main.storyboard */,
+				CAF937EF284397210097B974 /* Assets.xcassets */,
+				CAF937F1284397210097B974 /* LaunchScreen.storyboard */,
+				CAF937F4284397210097B974 /* Info.plist */,
+				CAF937FA284397910097B974 /* GoogleService-Info.plist */,
+			);
+			path = Fidipu;
+			sourceTree = "<group>";
+		};
+		E3029CF6AD057532D92DCC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D4AF4623A6400B43D6A25CB /* Pods_Fidipu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF937E2284397210097B974 /* Fidipu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF937F7284397210097B974 /* Build configuration list for PBXNativeTarget "Fidipu" */;
+			buildPhases = (
+				258484FCF7C79AEF620127B1 /* [CP] Check Pods Manifest.lock */,
+				CAF937DF284397210097B974 /* Sources */,
+				CAF937E0284397210097B974 /* Frameworks */,
+				CAF937E1284397210097B974 /* Resources */,
+				A2FF54F9A95975FEDB79F778 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fidipu;
+			productName = Fidipu;
+			productReference = CAF937E3284397210097B974 /* Fidipu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF937DB284397210097B974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CAF937E2284397210097B974 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CAF937DE284397210097B974 /* Build configuration list for PBXProject "Fidipu" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF937DA284397210097B974;
+			productRefGroup = CAF937E4284397210097B974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF937E2284397210097B974 /* Fidipu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF937E1284397210097B974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF937F3284397210097B974 /* LaunchScreen.storyboard in Resources */,
+				CAF937FB284397910097B974 /* GoogleService-Info.plist in Resources */,
+				CAF937F0284397210097B974 /* Assets.xcassets in Resources */,
+				CAF937EE284397210097B974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		258484FCF7C79AEF620127B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fidipu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2FF54F9A95975FEDB79F778 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fidipu/Pods-Fidipu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fidipu/Pods-Fidipu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fidipu/Pods-Fidipu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF937DF284397210097B974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF937EB284397210097B974 /* ViewController.swift in Sources */,
+				CA539941284586FB0060CE2E /* UploadViewController.swift in Sources */,
+				CAD6A4B32849623E000D0E09 /* ScoringViewController.swift in Sources */,
+				CAE94F7528480D0B0002211D /* FeedTableViewCell.swift in Sources */,
+				CAF937E7284397210097B974 /* AppDelegate.swift in Sources */,
+				CA53993F2845864E0060CE2E /* FeedViewController.swift in Sources */,
+				CAF937E9284397210097B974 /* SceneDelegate.swift in Sources */,
+				CACD7631284A7407001C6A2B /* CommentTableViewCell.swift in Sources */,
+				CA539943284587080060CE2E /* SettingsViewController.swift in Sources */,
+				CACD762F284A722E001C6A2B /* CommentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAF937EC284397210097B974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF937ED284397210097B974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF937F1284397210097B974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF937F2284397210097B974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF937F5284397210097B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF937F6284397210097B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF937F8284397210097B974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5F0E3283B553F5036FCA9F /* Pods-Fidipu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLPK97D26B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fidipu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymsoft.Fidipu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF937F9284397210097B974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8981425D378489D79BBAA4C2 /* Pods-Fidipu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TLPK97D26B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fidipu/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymsoft.Fidipu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF937DE284397210097B974 /* Build configuration list for PBXProject "Fidipu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF937F5284397210097B974 /* Debug */,
+				CAF937F6284397210097B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF937F7284397210097B974 /* Build configuration list for PBXNativeTarget "Fidipu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF937F8284397210097B974 /* Debug */,
+				CAF937F9284397210097B974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF937DB284397210097B974 /* Project object */;
+}

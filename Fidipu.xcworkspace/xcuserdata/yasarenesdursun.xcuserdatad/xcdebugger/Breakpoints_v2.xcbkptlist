@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "41C3AE47-36E5-45EC-815E-BD4431649ED1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fidipu/UploadViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "UploadViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - 5d0cb1a394f45381"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.uploadImageViewTextField.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - 27c016d99fb27f8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.uploadImageViewTextField.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - 7456e1fc8da0b682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.uploadImageViewTextField.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - 5a2628fba252f3c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.uploadImageViewTextField.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - f3712deedba7da3e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Fidipu.UploadViewController"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "704E2B03-1B3F-4961-B545-56FA4B6541F7 - d162f872e4896134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fidipu.UploadViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Fidipu.UploadViewController&gt;"
+                  moduleName = "Fidipu"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yasarenesdursun/Desktop/XcodeeProjects/Fidipu/Fidipu/UploadViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BEAD62A-C692-4F86-8E40-2AFFC06135E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Fidipu/CommentViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "getDataFromFirestore()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
